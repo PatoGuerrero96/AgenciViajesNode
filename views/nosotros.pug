@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5.mb-3 
+                img(src="img/nosotros.jpg", alt="Nosotros", class='img-fluid')
+                br
+
+            .col-md-7 
+                 h1=pagina
+                 blockquoteLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book 
+                 p  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                 p  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                 
+    .listado-iconos
+        .container-mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="seguridad")
+                    h2.mb-4 Seguridad 
+                    p Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).  
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="destinos")
+                    h2.mb-4 Destinos 
+                    p Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).    
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="precios")
+                    h2.mb-4 Los mejores precios
+                    p Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).             
